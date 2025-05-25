@@ -18,7 +18,7 @@ interface Admin extends User {
 
 const foo: Admin = {
     dbId: 2,
-    email: "dex@foo.com",
+    email: "starfall@foo.com",
     userId: 222,
     role: "admin",
     githubToken: "gitgitgit",

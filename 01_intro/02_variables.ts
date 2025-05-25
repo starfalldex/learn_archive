@@ -1,5 +1,5 @@
 //string
-let greet: string = "Dex";
+let greet: string = "Starfall";
 greet.toLowerCase();
 console.log("Hello, World!", greet);
 

@@ -11,9 +11,9 @@ function signUpUser(name: string, email: string, isPaid: boolean) { }
 let loginUser = (name: string, email: string, isPaid: boolean = false) => { }
 
 addTwo(5);
-getUpper("dex");
-signUpUser("dex", "dex@foo.bar", false);
-loginUser("dex", "dex@foo.bar");
+getUpper("starfall");
+signUpUser("starfall", "starfall@foo.bar", false);
+loginUser("starfall", "starfall@foo.bar");
 
 const greetUser = (s: string): string => { return "hello" };
 

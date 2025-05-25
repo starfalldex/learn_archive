@@ -1,11 +1,11 @@
 const foo = {
-    name: "dex",
-    email: "dex@foo.bar",
+    name: "starfall",
+    email: "starfall@foo.bar",
     isActive: true,
 }
 
 function createUser1({ name: string, isPaid: boolean }) { }
-createUser1({ name: "dex", isPaid: false });
+createUser1({ name: "starfall", isPaid: false });
 
 function createCourse(): { name: string, price: number } {
     return { name: "foobar", price: 999 }
@@ -30,11 +30,11 @@ type User2 = {
 }
 let fooUser: User2 = {
     _id: "123",
-    name: "dex",
-    email: "dex@foo@bar",
+    name: "starfall",
+    email: "starfall@foo@bar",
     isActive: true
 }
-fooUser.email = "dex2"
+fooUser.email = "starfall2"
 // cant change _id because it is readonly
 // myUser._id = "1234"
 

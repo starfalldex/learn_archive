@@ -6,6 +6,6 @@ type User = {
     isActive: boolean;
 }
 const allUsers: User[] = []
-allUsers.push({name: "dex", isActive: true})
+allUsers.push({name: "starfall", isActive: true})
 
 export {};
