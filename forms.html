@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+    /* body {
+      background-color: hsl(0, 0%, 7%);
+      color: hsl(0, 0%, 93%);
+    } */
+  </style>
+</head>
+
+<body>
+  <form action="#" method="get" accept-charset="UTF-16" autocomplete="off" enctype="">
+    <label for="fname">First name</label>
+    <input type="text" placeholder="first name" name="" id="fname">
+    <br>
+    <label for="lname">Last name</label>
+    <input type="text" placeholder="first name" name="" id="lname">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="" id="password">
+    <br>
+    <label for="week">Week select</label>
+    <input type="week" name="" id="week">
+    <br>
+    <label for="week">Week select</label>
+    <select name="editors" id="">
+      <option value="vscode">VS code</option>
+      <option value="jetBrains">Jet Brains</option>
+    </select>
+    <br>
+    <label for="range">Range</label>
+    <input type="range" name="" id="range" step="2" min="0" max="10">
+    <br>
+
+    <!-- rarely used -->
+    <label for="editor"> Data List</label>
+    <input list="editors" name="editor" id="editor">
+    <datalist id="editors">
+      <option value="vscode">VS code</option>
+      <option value="jetBrains">Jet Brains</option>
+    </datalist>
+    <br>
+
+    <input type="reset" value="reset">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
