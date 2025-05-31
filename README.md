@@ -1,2 +1,9 @@
-# learn_archive
-archived of different learnt things
+## branches
+- html
+---
+- JavaScript (on progress...)
+- TypeScript
+- CPP
+- Python
+---
+- Docker
